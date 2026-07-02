@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1100" role="img" aria-labelledby="title desc">
+  <title id="title">Mirror Pulse Editorial salon concept</title>
+  <desc id="desc">Editorial dark salon concept with a stylized person silhouette, mirror frame, rose light, and reflective hair lines.</desc>
+  <defs>
+    <linearGradient id="rose-sweep" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#f43f5e" stop-opacity=".92"/>
+      <stop offset=".42" stop-color="#8b5cf6" stop-opacity=".72"/>
+      <stop offset="1" stop-color="#050507" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="skin-light" x1="0" x2="1">
+      <stop offset="0" stop-color="#f7d8dc" stop-opacity=".9"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity=".35"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="1100" fill="#060507"/>
+  <rect x="145" y="115" width="820" height="820" fill="none" stroke="#ffffff" stroke-opacity=".2" stroke-width="3"/>
+  <rect x="198" y="168" width="714" height="714" fill="#ffffff" fill-opacity=".035"/>
+  <path d="M500 205c180 70 280 220 245 380-38 174-216 274-386 228"
+        fill="none" stroke="url(#rose-sweep)" stroke-width="88" stroke-linecap="round"/>
+  <path d="M590 410c-55-72-153-74-210-12-61 67-45 178 35 224l-74 195h360l-84-192c82-54 87-153-27-215Z"
+        fill="#ffffff" fill-opacity=".9"/>
+  <path d="M410 396c92-132 322-78 340 98 4 43-7 90-34 134 58-90 80-228 2-321-89-105-251-104-308 89Z"
+        fill="#09090b"/>
+  <path d="M1000 220h390M1000 308h300M1000 396h350" stroke="#ffffff" stroke-opacity=".22" stroke-width="18" stroke-linecap="round"/>
+  <path d="M960 710c180-130 410-125 610-300" fill="none" stroke="#f43f5e" stroke-opacity=".72" stroke-width="20" stroke-linecap="round"/>
+  <path d="M930 792c220-145 430-118 650-274" fill="none" stroke="#8b5cf6" stroke-opacity=".62" stroke-width="12" stroke-linecap="round"/>
+  <path d="M900 870c250-122 460-98 690-220" fill="none" stroke="#ffffff" stroke-opacity=".26" stroke-width="7" stroke-linecap="round"/>
+  <rect x="1000" y="560" width="400" height="250" fill="#ffffff" fill-opacity=".045" stroke="#ffffff" stroke-opacity=".13"/>
+  <path d="M1054 738h292M1054 682h224M1054 626h308" stroke="#ffffff" stroke-opacity=".24" stroke-width="13" stroke-linecap="round"/>
+  <text x="116" y="1015" fill="#ffffff" font-family="Inter, sans-serif" font-size="64" font-weight="900">MIRROR PULSE</text>
+  <text x="120" y="1062" fill="#f43f5e" font-family="Inter, sans-serif" font-size="24" font-weight="900" letter-spacing="8">CUT / COLOR / CARE / CHANGE</text>
+</svg>

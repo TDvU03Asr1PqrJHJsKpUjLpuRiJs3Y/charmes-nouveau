@@ -9,5 +9,7 @@ build/
 # Generated artifacts and runtime logs are kept local by default.
 data/*
 !data/.gitkeep
+!data/plans/
+!data/plans/*.md
 !data/logs/
 data/logs/*
