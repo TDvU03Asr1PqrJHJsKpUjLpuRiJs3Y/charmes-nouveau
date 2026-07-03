@@ -5,6 +5,15 @@ const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)
 
 const clamp = (value, min = 0, max = 1) => Math.min(max, Math.max(min, value));
 
+function revealVisibleItems() {
+  for (const item of revealItems) {
+    const rect = item.getBoundingClientRect();
+    if (rect.top < window.innerHeight * 0.94 && rect.bottom > 0) {
+      item.classList.add("is-visible");
+    }
+  }
+}
+
 function updateHeaderHeight() {
   const header = document.querySelector(".site-header");
   if (!header) return;
@@ -34,6 +43,7 @@ if (prefersReducedMotion) {
   );
 
   for (const item of revealItems) observer.observe(item);
+  requestAnimationFrame(revealVisibleItems);
 }
 
 window.addEventListener("scroll", updateScrollState, { passive: true });
