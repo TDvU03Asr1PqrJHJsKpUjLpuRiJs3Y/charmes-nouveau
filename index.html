@@ -6,13 +6,13 @@
     <meta name="robots" content="noindex, nofollow">
     <meta
       name="description"
-      content="美容室シャルム・ヌーボーのリデザイン候補プレビュー。Dramaticで人工的な3つのデザイン案。"
+      content="美容室シャルム・ヌーボーの水彩フレンチ・リデザイン候補プレビュー。Paris Atelier、Lumiere du Sud、Mode Francaiseの3案比較。"
     >
-    <title>Charmes Nouveau Redesign Preview</title>
+    <title>Charmes Nouveau Watercolor French Preview</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&family=Noto+Sans+JP:wght@400;700;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;600;700;800&family=Noto+Sans+JP:wght@400;500;700&family=Noto+Serif+JP:wght@500;700&display=swap"
       rel="stylesheet"
     >
     <link rel="stylesheet" href="src/styles.css">
@@ -23,16 +23,16 @@
     <header class="site-header" aria-label="プレビュー操作">
       <a class="brand-mark" href="#top" aria-label="Charmes Nouveau preview top">
         <span class="brand-sigil">CN</span>
-        <span>
+        <span class="brand-copy">
           <span class="brand-name">Charmes Nouveau</span>
-          <span class="brand-note">Redesign preview</span>
+          <span class="brand-note">Watercolor French preview</span>
         </span>
       </a>
 
       <nav class="candidate-tabs" aria-label="デザイン候補">
-        <button class="candidate-tab is-active" type="button" data-target="noir">Noir Blue</button>
-        <button class="candidate-tab" type="button" data-target="mirror">Mirror Pulse</button>
-        <button class="candidate-tab" type="button" data-target="local">Local Luxe</button>
+        <button class="candidate-tab is-active" type="button" data-target="paris" aria-controls="paris" aria-current="true">Paris</button>
+        <button class="candidate-tab" type="button" data-target="sud" aria-controls="sud">Sud</button>
+        <button class="candidate-tab" type="button" data-target="mode" aria-controls="mode">Mode</button>
       </nav>
 
       <a
@@ -41,22 +41,27 @@
         target="_blank"
         rel="noopener noreferrer"
       >
-        Hot Pepper 予約
+        予約
       </a>
     </header>
 
     <main id="top">
       <section class="intro" aria-labelledby="intro-title">
-        <p class="eyebrow">Three moving concepts / noindex preview</p>
-        <h1 id="intro-title">東小金井の青いテントを、夜の光に変える。</h1>
+        <div class="intro-art" aria-hidden="true">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <p class="eyebrow">Selection preview / noindex</p>
+        <h1 id="intro-title">東小金井の青いテントを、水彩のフランスへ。</h1>
         <p class="intro-copy">
-          50年続く美容室の安心感は残しながら、20-30代男女がスマホで見た瞬間に予約したくなる、
-          人工的で強いグラフィックの3案です。
+          美容室シャルム・ヌーボーは、東小金井で50年続く美容室。フランス語で
+          “新しい魅力”を意味する名前を軸に、柔らかな水彩と抽象画で3つの方向を比較します。
         </p>
         <div class="intro-actions">
           <a class="primary-action" href="#preview">3案を見る</a>
           <a
-            class="ghost-action"
+            class="text-action"
             href="https://charmes-nouveau.chu.jp/"
             target="_blank"
             rel="noopener noreferrer"
@@ -64,6 +69,13 @@
             現行サイト
           </a>
         </div>
+        <figure class="hero-triptych">
+          <img
+            src="src/assets/generated-watercolor-triptych.jpg"
+            alt="ChatGPTで新規生成したパリのアトリエ、南仏の光、フレンチモードを並べた水彩トリプティック"
+          >
+          <figcaption>Chrome上のChatGPT Create image / Highで新規生成したムードビジュアル。</figcaption>
+        </figure>
       </section>
 
       <div class="scroll-meter" aria-hidden="true">
@@ -71,19 +83,19 @@
       </div>
 
       <section id="preview" class="candidate-stack" aria-label="デザイン候補一覧">
-        <article id="noir" class="candidate-panel theme-noir" data-candidate="noir">
+        <article id="paris" class="candidate-panel theme-paris" data-candidate="paris">
           <div class="panel-sticky">
             <div class="panel-copy">
-              <p class="eyebrow">Candidate 01 / balanced dramatic</p>
-              <h2>Noir Blue Signal</h2>
+              <p class="eyebrow">Candidate 01 / Fit 45%</p>
+              <h2>Paris Atelier Watercolor</h2>
               <p>
-                ブルーのテントを、黒いキャンバスに走る光の信号へ。強い見た目でも読みやすく、
-                はじめての予約に迷わないバランス案です。
+                パリの小さなアトリエのように、紙の白、淡いブルー、滲むインクで静かに見せる案。
+                長く続く地域の安心感を、若い初回来店者にも入りやすい余白で整えます。
               </p>
-              <ul class="signal-list">
-                <li><span>01</span> 東小金井駅南口 徒歩2分</li>
-                <li><span>02</span> 50年続く地域の安心感</li>
-                <li><span>03</span> Hot Pepper 予約を常時表示</li>
+              <ul class="fact-list" aria-label="店舗の要点">
+                <li><span>Name</span>美容室シャルム・ヌーボー</li>
+                <li><span>Meaning</span>フランス語で “新しい魅力”</li>
+                <li><span>Access</span>東小金井駅 南口徒歩2分</li>
               </ul>
               <div class="panel-actions">
                 <a
@@ -92,73 +104,33 @@
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  この導線で予約へ
+                  Hot Pepperで予約
                 </a>
-                <a class="ghost-action" href="#mirror">次の案</a>
+                <a class="text-action" href="#sud">次の案へ</a>
               </div>
             </div>
-            <figure class="visual-card">
-              <img src="src/assets/noir-blue-signal.svg" alt="黒い背景に青い人工光と髪の流れを重ねた抽象ビジュアル">
+            <figure class="visual-frame">
+              <img src="src/assets/paris-atelier-watercolor.svg" alt="淡いブルーの紙に髪の流れとパリのアトリエの窓辺を重ねた水彩抽象ビジュアル">
             </figure>
           </div>
         </article>
 
-        <article id="mirror" class="candidate-panel theme-mirror" data-candidate="mirror">
+        <article id="sud" class="candidate-panel theme-sud" data-candidate="sud">
           <div class="panel-sticky">
             <div class="panel-copy">
-              <p class="eyebrow">Candidate 02 / editorial hair mood</p>
-              <h2>Mirror Pulse Editorial</h2>
+              <p class="eyebrow">Candidate 02 / Fit 30%</p>
+              <h2>Lumiere du Sud</h2>
               <p>
-                鏡の前で少しずつ自分が変わる感覚を、人物シルエットと反射光で表現。
-                美容室らしい高揚感をいちばん強く出す案です。
+                南仏の朝の光、淡い黄色、ハーブグリーン、青いテントの記憶で親しみやすく見せる案。
+                はじめてでも相談しやすい美容室として、温度のある水彩に寄せます。
               </p>
-              <div class="menu-preview" aria-label="メニュー概要">
-                <span>Cut 5,500</span>
-                <span>Color 7,000+</span>
-                <span>Care 3,300+</span>
-                <span>Spa new</span>
+              <div class="menu-preview" aria-label="代表メニュー">
+                <span><b>Cut</b>5,500円</span>
+                <span><b>Color</b>7,000円〜</span>
+                <span><b>Perm</b>12,500円</span>
+                <span><b>Treatment</b>3,300円〜</span>
               </div>
-              <div class="panel-actions">
-                <a
-                  class="primary-action"
-                  href="https://beauty.hotpepper.jp/CSP/bt/reserve/?storeId=H000743704"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Hot Pepperへ
-                </a>
-                <a class="ghost-action" href="#local">次の案</a>
-              </div>
-            </div>
-            <figure class="visual-card">
-              <img src="src/assets/mirror-pulse-editorial.svg" alt="鏡と人物シルエットと人工的なローズ光の美容室向けビジュアル">
-            </figure>
-          </div>
-        </article>
-
-        <article id="local" class="candidate-panel theme-local" data-candidate="local">
-          <div class="panel-sticky">
-            <div class="panel-copy">
-              <p class="eyebrow">Candidate 03 / local trust in future UI</p>
-              <h2>Synthetic Local Luxe</h2>
-              <p>
-                駅近・青いテント・長く続く店の信頼を、未来的なサインと地図UIとして再構成。
-                情報の探しやすさと先進性を両立する案です。
-              </p>
-              <dl class="access-grid">
-                <div>
-                  <dt>Address</dt>
-                  <dd>東京都小金井市東町4-42-1</dd>
-                </div>
-                <div>
-                  <dt>Open</dt>
-                  <dd>9:30-18:00 / 火・水定休</dd>
-                </div>
-                <div>
-                  <dt>Station</dt>
-                  <dd>東小金井駅 南口徒歩2分</dd>
-                </div>
-              </dl>
+              <p class="price-note">表示価格は出張カットを除き税抜きです。</p>
               <div class="panel-actions">
                 <a
                   class="primary-action"
@@ -168,23 +140,95 @@
                 >
                   予約ページを開く
                 </a>
-                <a class="ghost-action" href="#noir">最初の案へ</a>
+                <a class="text-action" href="#mode">次の案へ</a>
               </div>
             </div>
-            <figure class="visual-card">
-              <img src="src/assets/synthetic-local-luxe.svg" alt="東小金井の駅近サインと青いテントを人工的な地図UIにしたビジュアル">
+            <figure class="visual-frame">
+              <img src="src/assets/lumiere-du-sud-watercolor.svg" alt="南仏の光と青いテントを思わせる黄色と緑と青の水彩抽象ビジュアル">
+            </figure>
+          </div>
+        </article>
+
+        <article id="mode" class="candidate-panel theme-mode" data-candidate="mode">
+          <div class="panel-sticky">
+            <div class="panel-copy">
+              <p class="eyebrow">Candidate 03 / Fit 25%</p>
+              <h2>Mode Francaise Abstract</h2>
+              <p>
+                フランスのファッション誌のように、余白と強い構図で印象を残す案。
+                水彩の柔らかさは保ちながら、若い男女がスマホで見た瞬間に覚える編集感を足します。
+              </p>
+              <dl class="access-grid" aria-label="店舗情報">
+                <div>
+                  <dt>Address</dt>
+                  <dd>東京都小金井市東町4-42-1</dd>
+                </div>
+                <div>
+                  <dt>Open</dt>
+                  <dd>9:30-18:00 / 火曜・水曜定休</dd>
+                </div>
+                <div>
+                  <dt>Tel</dt>
+                  <dd>042-383-3915</dd>
+                </div>
+              </dl>
+              <div class="panel-actions">
+                <a
+                  class="primary-action"
+                  href="https://beauty.hotpepper.jp/CSP/bt/reserve/?storeId=H000743704"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Hot Pepperで予約
+                </a>
+                <a class="text-action" href="#paris">最初の案へ</a>
+              </div>
+            </div>
+            <figure class="visual-frame">
+              <img src="src/assets/mode-francaise-abstract.svg" alt="フランスのファッション誌の構図と水彩の髪の流れを重ねた抽象ビジュアル">
             </figure>
           </div>
         </article>
       </section>
 
-      <section class="selection-note" aria-labelledby="selection-title">
-        <p class="eyebrow">Selection gate</p>
-        <h2 id="selection-title">ここで一度、選定待ち。</h2>
-        <p>
-          次工程では、選ばれた1案だけを Home / Menu / Access / News / Blog の5ページへ展開します。
-          価格・住所・営業時間などの事実は現行サイト由来で保持し、コピーは若年層向けに再編集します。
-        </p>
+      <section class="information-band" aria-labelledby="info-title">
+        <p class="eyebrow">Shared content</p>
+        <h2 id="info-title">どの案でも、情報は迷わせない。</h2>
+        <div class="info-grid">
+          <section class="info-block" aria-labelledby="menu-title">
+            <h3 id="menu-title">Menu</h3>
+            <ul class="compact-menu">
+              <li><span>メンズカット</span><b>4,600円</b></li>
+              <li><span>学生カット</span><b>3,200円</b></li>
+              <li><span>縮毛矯正</span><b>21,000円</b></li>
+              <li><span>着付け</span><b>10,000円</b></li>
+              <li><span>出張カット</span><b>税込6,600円〜</b></li>
+            </ul>
+            <p class="price-note">表示価格は出張カットを除き税抜きです。</p>
+          </section>
+          <section class="info-block" aria-labelledby="route-title">
+            <h3 id="route-title">Access</h3>
+            <p>
+              184-0011 東京都小金井市東町4-42-1。JR中央線「東小金井駅」南口より徒歩2分。
+              ブルーのテントが目印です。
+            </p>
+            <a
+              class="text-action"
+              href="https://www.google.com/maps/search/?api=1&query=%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%B0%8F%E9%87%91%E4%BA%95%E5%B8%82%E6%9D%B1%E7%94%BA4-42-1"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              地図で見る
+            </a>
+          </section>
+          <section class="info-block" aria-labelledby="next-title">
+            <h3 id="next-title">After selection</h3>
+            <p>
+              選ばれた1案をもとに、ホーム、メニュー、アクセス、ブログ、お知らせの5ページ相当へ展開します。
+              ブログとお知らせは現行サイトへの導線を残します。
+            </p>
+          </section>
+        </div>
       </section>
     </main>
 

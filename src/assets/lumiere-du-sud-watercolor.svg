@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc" preserveAspectRatio="xMidYMid slice">
+  <title id="title">Lumiere du Sud watercolor abstraction</title>
+  <desc id="desc">An original abstract watercolor vector inspired by southern French sunlight, pale stone, lavender shade, and warm salon air.</desc>
+  <defs>
+    <linearGradient id="southernSky" x1="16%" y1="2%" x2="86%" y2="100%">
+      <stop offset="0%" stop-color="#fff5dc"/>
+      <stop offset="45%" stop-color="#f6dac1"/>
+      <stop offset="100%" stop-color="#d8c5ba"/>
+    </linearGradient>
+    <radialGradient id="sunBloom" cx="72%" cy="19%" r="43%">
+      <stop offset="0%" stop-color="#ffe7a5" stop-opacity=".9"/>
+      <stop offset="36%" stop-color="#f7b680" stop-opacity=".46"/>
+      <stop offset="100%" stop-color="#f7b680" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="lavenderWash" x1="7%" y1="74%" x2="92%" y2="29%">
+      <stop offset="0%" stop-color="#82719b" stop-opacity=".48"/>
+      <stop offset="44%" stop-color="#b6a3bb" stop-opacity=".34"/>
+      <stop offset="100%" stop-color="#ffe0b6" stop-opacity=".18"/>
+    </linearGradient>
+    <linearGradient id="oliveWash" x1="0%" y1="49%" x2="100%" y2="70%">
+      <stop offset="0%" stop-color="#9fa76a" stop-opacity=".43"/>
+      <stop offset="58%" stop-color="#c7b06f" stop-opacity=".24"/>
+      <stop offset="100%" stop-color="#e58f73" stop-opacity=".2"/>
+    </linearGradient>
+    <filter id="bleed" x="-14%" y="-14%" width="128%" height="128%">
+      <feTurbulence type="fractalNoise" baseFrequency=".018 .035" numOctaves="4" seed="29" result="grain"/>
+      <feDisplacementMap in="SourceGraphic" in2="grain" scale="20" xChannelSelector="R" yChannelSelector="G"/>
+      <feGaussianBlur stdDeviation="1.2"/>
+    </filter>
+    <filter id="fiber" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency=".55 .75" numOctaves="3" seed="11" result="fiberNoise"/>
+      <feColorMatrix in="fiberNoise" type="matrix" values="0 0 0 0 .62 0 0 0 0 .55 0 0 0 0 .47 0 0 0 .11 0"/>
+      <feBlend in="SourceGraphic" mode="multiply"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="900" fill="url(#southernSky)"/>
+  <rect width="1200" height="900" fill="url(#sunBloom)"/>
+  <g filter="url(#fiber)">
+    <path d="M0 337c127-56 253-76 378-61 153 19 278 87 427 72 146-16 260-88 395-74v626H0Z" fill="#f3dfc3" opacity=".58"/>
+    <g filter="url(#bleed)">
+      <path d="M105 553c112-96 244-143 394-142 119 0 215 36 312 100 96 62 209 92 339 87l-9 223c-154 39-307 17-459-66-118-65-233-79-346-45-78 23-159 58-243 105Z" fill="url(#lavenderWash)" opacity=".92"/>
+      <path d="M-17 476c122-43 244-48 365-16 114 30 215 91 331 92 157 3 320-87 493-102l25 220c-140 32-274 45-403 39-155-8-287-77-440-111-114-25-236-15-367 30Z" fill="url(#oliveWash)" opacity=".72"/>
+      <path d="M513 78c119-17 238 0 359 53 54 77 60 161 17 251-102 17-205 7-311-30-51-91-73-182-65-274Z" fill="#ffe1a8" opacity=".49"/>
+      <path d="M132 169c99-33 200-28 302 17 36 58 37 119 4 184-94 24-187 20-279-13-44-58-53-121-27-188Z" fill="#f9c69f" opacity=".42"/>
+      <path d="M825 344c106-30 217-26 333 10 42 72 45 147 10 225-129 7-246-17-350-72-17-55-15-109 7-163Z" fill="#d6b0b6" opacity=".36"/>
+    </g>
+    <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M79 528c135-26 272-22 411 12 183 44 376 35 580-29" stroke="#74668d" stroke-width="3" opacity=".28"/>
+      <path d="M104 641c161-52 321-51 480 2 139 47 295 37 467-29" stroke="#8c9260" stroke-width="4" opacity=".3"/>
+      <path d="M177 418c71-76 155-124 253-143" stroke="#c77964" stroke-width="3" opacity=".25"/>
+      <path d="M703 173c64 66 98 145 104 238" stroke="#a47b61" stroke-width="3" opacity=".25"/>
+      <path d="M936 413c62 43 103 94 124 153" stroke="#74668d" stroke-width="3" opacity=".23"/>
+    </g>
+    <g opacity=".26">
+      <path d="M312 752c21-31 42-31 62 0-20 29-41 29-62 0Z" fill="#7e9062"/>
+      <path d="M692 698c27-38 55-39 84-3-26 37-54 38-84 3Z" fill="#8e79a4"/>
+      <path d="M902 237c28-35 56-35 84 1-28 35-56 35-84-1Z" fill="#d98b6c"/>
+      <path d="M190 291c18-27 38-28 60-1-18 27-38 28-60 1Z" fill="#8e79a4"/>
+    </g>
+  </g>
+</svg>

@@ -18,11 +18,11 @@ See `docs/project-brief.md` for the initial project note.
 
 ## Redesign preview
 
-This branch contains the first selection gate for the Charmes Nouveau redesign:
+This branch contains the watercolor French selection gate for the Charmes Nouveau redesign:
 
-- Candidate 01: `Noir Blue Signal`
-- Candidate 02: `Mirror Pulse Editorial`
-- Candidate 03: `Synthetic Local Luxe`
+- Candidate 01: `Paris Atelier Watercolor`
+- Candidate 02: `Lumiere du Sud`
+- Candidate 03: `Mode Francaise Abstract`
 
 Open `index.html` directly in a browser, or serve the repository root with any static file server.
 

@@ -15,6 +15,7 @@ This document records the design-selection gate for the Charmes Nouveau static s
 - Assets: generated abstract/mood visuals only.
 - Do not copy Hot Pepper Beauty photos, reviews, or wording.
 - Do not use AI images that look like real photos of the actual shop.
+- Hot Pepper Beauty may be used for factual verification and reservation linking only.
 
 ## Reference Sites Reviewed
 
@@ -80,122 +81,114 @@ How to translate:
 - Present Charmes Nouveau options as named directions with clear trade-offs.
 - Keep the selected implementation lightweight and fast.
 
-## Direction A: Minimal Quality
+## Updated Watercolor French Directions
 
-Working label: `Clear Blue Minimal`
+The previous dramatic black/blue concept was intentionally replaced after review. The current preview compares three softer watercolor/abstract French directions while preserving practical salon information.
 
-Concept:
+## Direction A: Paris Atelier Watercolor
 
-- A quiet, refined site built around clear blue, white space, and fine typography.
-- Best for making the long-running salon feel modern without becoming loud.
-
-Visual language:
-
-- Base: warm white and soft blue-gray.
-- Accent: Charmes blue.
-- Typography: clean sans-serif with restrained Japanese headings.
-- Imagery: abstract hair strands, soft water reflections, light through glass, blue awning-inspired shapes.
-- Layout: generous vertical rhythm, large hero, slim nav, calm price tables.
-
-Page behavior:
-
-- Home opens with a full-width abstract hero and reservation CTA.
-- Menu uses simple grouped pricing.
-- Access is direct and utility-first.
-- News/blog pages explain that latest posts continue on the current site.
-
-Strengths:
-
-- Safest balance of young, clean, and trustworthy.
-- Works well without real shop photography.
-- Low implementation risk.
-
-Risks:
-
-- Could feel too quiet if the goal is highly trendy or social-media-like.
-
-## Direction B: Soft Natural
-
-Working label: `Light Care Natural`
+Working label: `Paris Atelier Watercolor`
 
 Concept:
 
-- A gentle, approachable site that makes first-time visitors feel comfortable asking for advice.
-- Best for emphasizing care, head spa, consultation, and local warmth.
+- A quiet Paris atelier mood built around paper white, ink blue, and soft watercolor washes.
+- Best for balancing the salon's 50-year local trust with a younger, refined first impression.
 
 Visual language:
 
-- Base: ivory, pale green, light blue, soft gray.
-- Accent: muted coral or fresh blue.
-- Typography: rounded but not childish.
-- Imagery: abstract botanical shadows, soft hair-care textures, hand-drawn line accents, light fabric.
-- Layout: approachable cards, short paragraphs, clear CTA blocks.
+- Base: warm paper, pale blue, muted rose, ink brown.
+- Typography: elegant serif headings with readable Japanese body text.
+- Imagery: original abstract watercolor, atelier-window geometry, soft hair-flow lines.
+- Layout: generous negative space, quiet price/access modules, stable reservation CTA.
 
 Page behavior:
 
-- Home leads with "髪も心も軽くなる相談しやすい美容室" style messaging.
-- Menu highlights popular care routes before full pricing.
-- Access includes a friendly "東小金井駅から徒歩" route section.
-- News/blog pages feel like quiet bulletin boards.
+- Scroll subtly shifts watercolor background washes.
+- Candidate panel uses sticky desktop composition and stacked mobile composition.
+- Shared information remains compact and readable.
 
 Strengths:
 
-- Most welcoming for first-time customers.
-- Good fit for head spa and care-oriented services.
-- Reduces anxiety around reservation.
+- Strongest balance of French tone, trust, and usability.
+- Least likely to overpromise a different physical shop.
 
 Risks:
 
-- May feel less sharp or fashion-forward to younger visitors seeking trendiness.
+- May need enough modern CTA and menu structure so it does not feel too classical.
 
-## Direction C: Youth Editorial
+## Direction B: Lumiere du Sud
 
-Working label: `Blue Edit Modern`
+Working label: `Lumiere du Sud`
 
 Concept:
 
-- A more magazine-like, modern site for younger customers who judge salons by visual energy and mood.
-- Best for making the salon feel newly refreshed and current.
+- A warm Southern France mood using sunlight, pale yellow, olive green, and the blue awning memory.
+- Best for making first-time visitors feel comfortable and open to consultation.
 
 Visual language:
 
-- Base: off-white with bold black type.
-- Accent: vivid blue and silver-gray.
-- Typography: large editorial headings, compact body text, strong section numbers.
-- Imagery: abstract cropped hair silhouettes, blue light gradients, collage-like productless shapes.
-- Layout: asymmetric sections, large numbers, strong sticky reservation CTA.
+- Base: warm white, mimosa yellow, olive, light blue.
+- Typography: light serif or approachable sans-serif headings with clean body text.
+- Imagery: original watercolor light fields, awning-blue marks, botanical hints.
+- Layout: approachable menu preview and clear Web reservation CTA.
 
 Page behavior:
 
-- Home uses punchy copy and a strong booking band.
-- Menu is grouped by customer intent: cut, color, care, special day.
-- Access is compact and map-forward.
-- News/blog are styled as external reading cards.
+- Background washes brighten as the section enters.
+- Cards appear calm and readable, without heavy animation.
 
 Strengths:
 
-- Strongest appeal to younger new customers.
-- Feels clearly renewed compared with the current site.
-- Good for Instagram/Hot Pepper traffic.
+- Most welcoming and approachable for younger first-time customers.
+- Good fit for local trust and station-near convenience.
 
 Risks:
 
-- Highest mismatch risk with the existing local/long-running salon atmosphere.
-- Needs careful restraint so it does not feel like a different shop.
+- Can become too casual if the long-running salon credibility is underplayed.
+
+## Direction C: Mode Francaise Abstract
+
+Working label: `Mode Francaise Abstract`
+
+Concept:
+
+- A French fashion editorial mood using strong whitespace, abstract brush lines, and small rouge accents.
+- Best for creating the most memorable young-facing visual identity.
+
+Visual language:
+
+- Base: clean off-white, deep blue/ink, champagne, restrained rouge.
+- Typography: dramatic serif headings with neutral sans-serif body text.
+- Imagery: original abstract watercolor, ink hair lines, editorial composition.
+- Layout: sharper asymmetry, compact access blocks, fashion-magazine pacing.
+
+Page behavior:
+
+- Scroll introduces linear brush movement and stronger section contrast.
+- Reservation CTA remains practical despite the editorial tone.
+
+Strengths:
+
+- Strongest visual memory and most contemporary mood.
+- Good if the salon wants a sharper refresh.
+
+Risks:
+
+- Highest mismatch risk with existing local warmth.
+- Rouge and editorial gestures should stay small.
 
 ## Recommendation
 
-Choose Direction A if the priority is the safest public preview.
+Choose Paris Atelier if the priority is the safest public preview.
 
-Choose Direction B if the priority is first-time comfort and local trust.
+Choose Lumiere du Sud if the priority is first-time comfort and local warmth.
 
-Choose Direction C if the priority is attracting younger customers with the strongest visual refresh.
+Choose Mode Francaise if the priority is attracting younger customers with the strongest visual refresh.
 
-Given the locked target of younger first-time customers and the rule against real-looking shop photos, the default recommendation is Direction A with selected touches from Direction C:
+Given the locked target of younger first-time customers and the rule against real-looking shop photos, the default recommendation is Paris Atelier:
 
-- A calm blue minimal base.
-- Modern editorial section titles.
-- Strong Hot Pepper reservation CTA.
-- Abstract blue/hair/light imagery.
+- It aligns naturally with "new charm" and the French naming.
+- It keeps the long-running local salon credible.
+- It leaves room for a stronger menu/access/reservation layer after selection.
 
 This gives the site a young refresh without overpromising a different physical salon experience.
