@@ -4,239 +4,162 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="noindex, nofollow">
-    <meta
-      name="description"
-      content="美容室シャルム・ヌーボーの水彩フレンチ・リデザイン候補プレビュー。Paris Atelier、Lumiere du Sud、Mode Francaiseの3案比較。"
-    >
-    <title>Charmes Nouveau Watercolor French Preview</title>
+    <meta name="description" content="東小金井の美容室シャルム・ヌーボーを、Paris Atelier Watercolorの世界観で再構成したプレビューサイト。">
+    <title>美容室シャルム・ヌーボー | Paris Atelier Watercolor</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;600;700;800&family=Noto+Sans+JP:wght@400;500;700&family=Noto+Serif+JP:wght@500;700&display=swap"
-      rel="stylesheet"
-    >
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&amp;family=Inter:wght@400;600;700;800&amp;family=Noto+Sans+JP:wght@400;500;700&amp;family=Noto+Serif+JP:wght@500;700&amp;display=swap" rel="stylesheet">
     <link rel="stylesheet" href="src/styles.css">
   </head>
-  <body>
-    <a class="skip-link" href="#preview">候補を見る</a>
-
-    <header class="site-header" aria-label="プレビュー操作">
-      <a class="brand-mark" href="#top" aria-label="Charmes Nouveau preview top">
+  <body data-page="home">
+    <a class="skip-link" href="#main">本文へ移動</a>
+    <header class="site-header">
+      <a class="brand-mark" href="./" aria-label="美容室シャルム・ヌーボー ホーム">
         <span class="brand-sigil">CN</span>
         <span class="brand-copy">
           <span class="brand-name">Charmes Nouveau</span>
-          <span class="brand-note">Watercolor French preview</span>
+          <span class="brand-note">Paris Atelier Watercolor</span>
         </span>
       </a>
-
-      <nav class="candidate-tabs" aria-label="デザイン候補">
-        <button class="candidate-tab is-active" type="button" data-target="paris" aria-controls="paris" aria-current="true">Paris</button>
-        <button class="candidate-tab" type="button" data-target="sud" aria-controls="sud">Sud</button>
-        <button class="candidate-tab" type="button" data-target="mode" aria-controls="mode">Mode</button>
+      <nav class="site-nav" aria-label="主要ナビゲーション">
+        <a href="./" aria-current="page">ホーム</a>
+        <a href="menu/">メニュー</a>
+        <a href="access/">アクセス</a>
+        <a href="blog/">ブログ</a>
+        <a href="news/">お知らせ</a>
       </nav>
-
-      <a
-        class="reserve-pill"
-        href="https://beauty.hotpepper.jp/CSP/bt/reserve/?storeId=H000743704"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        予約
-      </a>
+      <a class="reserve-pill" href="https://beauty.hotpepper.jp/CSP/bt/reserve/?storeId=H000743704" target="_blank" rel="noopener noreferrer">予約</a>
     </header>
 
-    <main id="top">
-      <section class="intro" aria-labelledby="intro-title">
-        <div class="intro-art" aria-hidden="true">
-          <span></span>
-          <span></span>
-          <span></span>
+    <main id="main">
+      <section class="hero hero-home" aria-labelledby="hero-title">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Higashi-Koganei / Since 1970s</p>
+          <h1 id="hero-title">髪が変わると、気持ちも少しパリへ行く。</h1>
+          <p>
+            東小金井で50年。青いテントが目印の美容室シャルム・ヌーボーを、
+            紙の余白、淡いブルー、会話の温度で包み直したプレビューです。
+          </p>
+          <div class="hero-actions">
+            <a class="primary-action" href="https://beauty.hotpepper.jp/CSP/bt/reserve/?storeId=H000743704" target="_blank" rel="noopener noreferrer">Hot Pepperで予約</a>
+            <a class="text-action" href="access/">お店への行き方</a>
+          </div>
         </div>
-        <p class="eyebrow">Selection preview / noindex</p>
-        <h1 id="intro-title">東小金井の青いテントを、水彩のフランスへ。</h1>
-        <p class="intro-copy">
-          美容室シャルム・ヌーボーは、東小金井で50年続く美容室。フランス語で
-          “新しい魅力”を意味する名前を軸に、柔らかな水彩と抽象画で3つの方向を比較します。
-        </p>
-        <div class="intro-actions">
-          <a class="primary-action" href="#preview">3案を見る</a>
-          <a
-            class="text-action"
-            href="https://charmes-nouveau.chu.jp/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            現行サイト
-          </a>
-        </div>
-        <figure class="hero-triptych">
-          <img
-            src="src/assets/generated-watercolor-triptych.jpg"
-            alt="ChatGPTで新規生成したパリのアトリエ、南仏の光、フレンチモードを並べた水彩トリプティック"
-          >
-          <figcaption>Chrome上のChatGPT Create image / Highで新規生成したムードビジュアル。</figcaption>
+        <figure class="hero-media reveal delay-1">
+          <img class="atlas-img crop-consultation" src="src/assets/generated/salon-consultation.png" alt="水彩写真風に描いた美容室でのカウンセリング風景">
+          <figcaption>Generated with ChatGPT Create image / High. Fictional watercolor-photo visual.</figcaption>
         </figure>
       </section>
 
-      <div class="scroll-meter" aria-hidden="true">
-        <span></span>
-      </div>
-
-      <section id="preview" class="candidate-stack" aria-label="デザイン候補一覧">
-        <article id="paris" class="candidate-panel theme-paris" data-candidate="paris">
-          <div class="panel-sticky">
-            <div class="panel-copy">
-              <p class="eyebrow">Candidate 01 / Fit 45%</p>
-              <h2>Paris Atelier Watercolor</h2>
-              <p>
-                パリの小さなアトリエのように、紙の白、淡いブルー、滲むインクで静かに見せる案。
-                長く続く地域の安心感を、若い初回来店者にも入りやすい余白で整えます。
-              </p>
-              <ul class="fact-list" aria-label="店舗の要点">
-                <li><span>Name</span>美容室シャルム・ヌーボー</li>
-                <li><span>Meaning</span>フランス語で “新しい魅力”</li>
-                <li><span>Access</span>東小金井駅 南口徒歩2分</li>
-              </ul>
-              <div class="panel-actions">
-                <a
-                  class="primary-action"
-                  href="https://beauty.hotpepper.jp/CSP/bt/reserve/?storeId=H000743704"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Hot Pepperで予約
-                </a>
-                <a class="text-action" href="#sud">次の案へ</a>
-              </div>
-            </div>
-            <figure class="visual-frame">
-              <img src="src/assets/paris-atelier-watercolor.svg" alt="淡いブルーの紙に髪の流れとパリのアトリエの窓辺を重ねた水彩抽象ビジュアル">
-            </figure>
-          </div>
-        </article>
-
-        <article id="sud" class="candidate-panel theme-sud" data-candidate="sud">
-          <div class="panel-sticky">
-            <div class="panel-copy">
-              <p class="eyebrow">Candidate 02 / Fit 30%</p>
-              <h2>Lumiere du Sud</h2>
-              <p>
-                南仏の朝の光、淡い黄色、ハーブグリーン、青いテントの記憶で親しみやすく見せる案。
-                はじめてでも相談しやすい美容室として、温度のある水彩に寄せます。
-              </p>
-              <div class="menu-preview" aria-label="代表メニュー">
-                <span><b>Cut</b>5,500円</span>
-                <span><b>Color</b>7,000円〜</span>
-                <span><b>Perm</b>12,500円</span>
-                <span><b>Treatment</b>3,300円〜</span>
-              </div>
-              <p class="price-note">表示価格は出張カットを除き税抜きです。</p>
-              <div class="panel-actions">
-                <a
-                  class="primary-action"
-                  href="https://beauty.hotpepper.jp/CSP/bt/reserve/?storeId=H000743704"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  予約ページを開く
-                </a>
-                <a class="text-action" href="#mode">次の案へ</a>
-              </div>
-            </div>
-            <figure class="visual-frame">
-              <img src="src/assets/lumiere-du-sud-watercolor.svg" alt="南仏の光と青いテントを思わせる黄色と緑と青の水彩抽象ビジュアル">
-            </figure>
-          </div>
-        </article>
-
-        <article id="mode" class="candidate-panel theme-mode" data-candidate="mode">
-          <div class="panel-sticky">
-            <div class="panel-copy">
-              <p class="eyebrow">Candidate 03 / Fit 25%</p>
-              <h2>Mode Francaise Abstract</h2>
-              <p>
-                フランスのファッション誌のように、余白と強い構図で印象を残す案。
-                水彩の柔らかさは保ちながら、若い男女がスマホで見た瞬間に覚える編集感を足します。
-              </p>
-              <dl class="access-grid" aria-label="店舗情報">
-                <div>
-                  <dt>Address</dt>
-                  <dd>東京都小金井市東町4-42-1</dd>
-                </div>
-                <div>
-                  <dt>Open</dt>
-                  <dd>9:30-18:00 / 火曜・水曜定休</dd>
-                </div>
-                <div>
-                  <dt>Tel</dt>
-                  <dd>042-383-3915</dd>
-                </div>
-              </dl>
-              <div class="panel-actions">
-                <a
-                  class="primary-action"
-                  href="https://beauty.hotpepper.jp/CSP/bt/reserve/?storeId=H000743704"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Hot Pepperで予約
-                </a>
-                <a class="text-action" href="#paris">最初の案へ</a>
-              </div>
-            </div>
-            <figure class="visual-frame">
-              <img src="src/assets/mode-francaise-abstract.svg" alt="フランスのファッション誌の構図と水彩の髪の流れを重ねた抽象ビジュアル">
-            </figure>
-          </div>
-        </article>
+      <section class="louvre-strip" aria-label="店舗の概要">
+        <a class="strip-card reveal" href="menu/">
+          <span>Menu</span>
+          <b>Cut 6,050円 / Color 7,700円〜</b>
+        </a>
+        <a class="strip-card reveal delay-1" href="access/">
+          <span>Access</span>
+          <b>東小金井駅 南口徒歩2分</b>
+        </a>
+        <a class="strip-card reveal delay-2" href="tel:0423833915">
+          <span>Telephone</span>
+          <b>042-383-3915</b>
+        </a>
       </section>
 
-      <section class="information-band" aria-labelledby="info-title">
-        <p class="eyebrow">Shared content</p>
-        <h2 id="info-title">どの案でも、情報は迷わせない。</h2>
-        <div class="info-grid">
-          <section class="info-block" aria-labelledby="menu-title">
-            <h3 id="menu-title">Menu</h3>
-            <ul class="compact-menu">
-              <li><span>メンズカット</span><b>4,600円</b></li>
-              <li><span>学生カット</span><b>3,200円</b></li>
-              <li><span>縮毛矯正</span><b>21,000円</b></li>
-              <li><span>着付け</span><b>10,000円</b></li>
-              <li><span>出張カット</span><b>税込6,600円〜</b></li>
-            </ul>
-            <p class="price-note">表示価格は出張カットを除き税抜きです。</p>
-          </section>
-          <section class="info-block" aria-labelledby="route-title">
-            <h3 id="route-title">Access</h3>
+      <section class="section narrative-section" aria-labelledby="about-title">
+        <div class="section-kicker reveal">Nouvelle Charme</div>
+        <div class="two-column">
+          <div class="section-copy reveal">
+            <h2 id="about-title">フランス語で、あたらしい魅力。</h2>
             <p>
-              184-0011 東京都小金井市東町4-42-1。JR中央線「東小金井駅」南口より徒歩2分。
-              ブルーのテントが目印です。
+              シャルム・ヌーボーは、フランス語で「新しい魅力」。
+              最高の技術と磨かれた感性を大切にしながら、髪への思いやりと美への追求を続けてきました。
             </p>
-            <a
-              class="text-action"
-              href="https://www.google.com/maps/search/?api=1&query=%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%B0%8F%E9%87%91%E4%BA%95%E5%B8%82%E6%9D%B1%E7%94%BA4-42-1"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              地図で見る
-            </a>
-          </section>
-          <section class="info-block" aria-labelledby="next-title">
-            <h3 id="next-title">After selection</h3>
             <p>
-              選ばれた1案をもとに、ホーム、メニュー、アクセス、ブログ、お知らせの5ページ相当へ展開します。
-              ブログとお知らせは現行サイトへの導線を残します。
+              白い木目調の床、黒でまとめた壁と椅子、深い碧の壁にしつらえた鏡。
+              鏡の中の自分が少しずつ変わっていく時間を、ゆっくり楽しめる場所です。
             </p>
-          </section>
+          </div>
+          <div class="gallery-pair reveal delay-1">
+            <figure class="image-card tall">
+              <img class="atlas-img crop-cut" src="src/assets/generated/salon-cut.png" alt="楽しそうに会話しながら髪を切る水彩写真風ビジュアル">
+            </figure>
+            <figure class="image-card small">
+              <img class="atlas-img crop-tools" src="src/assets/generated/salon-interior.png" alt="鏡と美容道具を描いた水彩写真風ビジュアル">
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="section exhibit-section" aria-labelledby="scene-title">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Scenes</p>
+          <h2 id="scene-title">会話、カット、鏡。美容室の一日を展示する。</h2>
+        </div>
+        <div class="exhibit-grid">
+          <article class="exhibit-card reveal">
+            <img class="atlas-img crop-portrait" src="src/assets/generated/salon-portrait.png" alt="おしゃれな若い女性のボブヘアを描いた水彩写真風ポートレート">
+            <div>
+              <p>01 / Portrait</p>
+              <h3>似合う髪を、絵のように。</h3>
+            </div>
+          </article>
+          <article class="exhibit-card reveal delay-1">
+            <img class="atlas-img crop-conversation" src="src/assets/generated/salon-conversation.png" alt="美容室で楽しく会話する若い男女の水彩写真風ビジュアル">
+            <div>
+              <p>02 / Conversation</p>
+              <h3>オシャレの話も、世間話も。</h3>
+            </div>
+          </article>
+          <article class="exhibit-card reveal delay-2">
+            <img class="atlas-img crop-interior" src="src/assets/generated/salon-interior.png" alt="パリのアトリエ風美容室の店内を描いた水彩写真風ビジュアル">
+            <div>
+              <p>03 / Atelier</p>
+              <h3>深い碧の壁と、静かな鏡。</h3>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section split-band" aria-labelledby="latest-title">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Latest</p>
+          <h2 id="latest-title">日々のこと、お休みのこと。</h2>
+        </div>
+        <div class="cards-rail">
+          <a class="news-card reveal" href="https://charmes-nouveau.chu.jp/2026/06/09/%e4%bb%8a%e3%81%a9%e3%81%8d%e3%81%ae%e8%8b%a5%e8%80%85%e8%a8%80%e8%91%89/" target="_blank" rel="noopener noreferrer">
+            <span>Blog / 2026.06.09</span>
+            <h3>今どきの若者言葉</h3>
+            <p>会話の中で出会う新しい言葉を、ヘアスタイルの話題にも重ねて軽やかに紹介。</p>
+          </a>
+          <a class="news-card reveal delay-1" href="https://charmes-nouveau.chu.jp/news/%e3%82%b4%ef%bc%8d%e3%83%ab%e3%83%87%e3%83%b3%e3%82%a6%e3%82%a3%e3%83%bc%e3%82%af%e3%81%ae%e3%81%8a%e4%bc%91%e3%81%bf/" target="_blank" rel="noopener noreferrer">
+            <span>News / 2026.03.27</span>
+            <h3>ゴールデンウィークのお休み</h3>
+            <p>5月4日から5月6日までの休業予定を案内しています。</p>
+          </a>
+          <a class="news-card reveal delay-2" href="blog/">
+            <span>Archive</span>
+            <h3>ブログ一覧を見る</h3>
+            <p>散歩、読書、映画、季節のこと。美容室の空気が伝わる日記への入口です。</p>
+          </a>
         </div>
       </section>
     </main>
 
     <footer class="site-footer">
-      <p>© Charmes Nouveau redesign preview. This page is a noindex concept preview.</p>
-      <a href="#top">Back to top</a>
+      <p>© 美容室シャルム・ヌーボー redesign preview. noindex.</p>
+      <nav aria-label="フッターナビゲーション">
+        <a href="https://charmes-nouveau.chu.jp/" target="_blank" rel="noopener noreferrer">現行サイト</a>
+        <a href="menu/">メニュー</a>
+        <a href="access/">アクセス</a>
+      </nav>
     </footer>
 
+    <div class="sticky-cta" aria-label="予約とアクセス">
+      <span>9:30-18:00 / 火・水 定休</span>
+      <a href="https://beauty.hotpepper.jp/CSP/bt/reserve/?storeId=H000743704" target="_blank" rel="noopener noreferrer">予約</a>
+      <a href="tel:0423833915">電話</a>
+    </div>
     <script src="src/main.js"></script>
   </body>
 </html>
